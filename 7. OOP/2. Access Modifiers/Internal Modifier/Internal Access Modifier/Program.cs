@@ -1,5 +1,5 @@
-﻿//internal access modifier is used to restrict access to members (such as variables or methods)
-//within the same assembly. 
+﻿// Internal access modifier is used to restrict access to members (such as variables or methods) within the same assembly. 
+// It works like the public access modifier
 using System;
 
 // Define a class named Employee in the same assembly.
