@@ -14,8 +14,8 @@ namespace Private_Constructor
         {
             static void Main(string[] args)
             {
-                Car obj = new Car();
-                Console.ReadLine();
+                Car obj = new Car();  //Output: Private Constructor
+                Console.ReadLine();  
             }
         }
     }
