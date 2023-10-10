@@ -1,27 +1,26 @@
-﻿using System;
+using System;
 
-namespace Course
+namespace CourseName
 {
+    //Using Property
     class Course
     {
-        private string courseName;
-        private string courseCode;
-        private int courseCredit;
+        public string CourseName { get; set; }
+        public string CourseCode { get; set; }
+        public int CourseCredit { get; set; }
 
-        public Course() { }
-
-        public Course(string name, string code, int credit)
+        public Course(string courseName, string courseCode, int courseCredit)
         {
-            courseName = name;
-            courseCode = code;
-            courseCredit = credit;
+            CourseName = courseName;
+            CourseCode = courseCode;
+            CourseCredit = courseCredit;
         }
 
         public void ShowCourseInfo()
         {
-            Console.WriteLine($"Course Name: {courseName}");
-            Console.WriteLine($"Course Code: {courseCode}");
-            Console.WriteLine($"Course Credit: {courseCredit}");
+            Console.WriteLine($"Course Name: {CourseName}");
+            Console.WriteLine($"Course Code: {CourseCode}");
+            Console.WriteLine($"Course Credit: {CourseCredit}");
         }
 
         static void Main(string[] args)
@@ -30,8 +29,11 @@ namespace Course
             myCourse.ShowCourseInfo();
             Console.ReadLine();
         }
+    }
+}
 
         /*
+        //Without using property
         class course
        {
         private string courseName;
