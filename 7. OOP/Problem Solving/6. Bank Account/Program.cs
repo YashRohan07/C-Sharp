@@ -4,9 +4,9 @@ namespace Account
 {
     class Account
     {
-        private string accName;
-        private string acId;
-        private int balance;
+        public string accName { get; set; }
+        public string acId { get; set; }
+        public int balance { get; set; }
 
         public Account() { }
 
