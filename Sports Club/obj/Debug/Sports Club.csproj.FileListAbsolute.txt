@@ -1,7 +1,0 @@
-C:\Users\Rohan\Documents\C#\Sports Club\Sports Club\bin\Debug\Sports Club.exe.config
-C:\Users\Rohan\Documents\C#\Sports Club\Sports Club\bin\Debug\Sports Club.exe
-C:\Users\Rohan\Documents\C#\Sports Club\Sports Club\bin\Debug\Sports Club.pdb
-C:\Users\Rohan\Documents\C#\Sports Club\Sports Club\obj\Debug\Sports Club.csproj.AssemblyReference.cache
-C:\Users\Rohan\Documents\C#\Sports Club\Sports Club\obj\Debug\Sports Club.csproj.CoreCompileInputs.cache
-C:\Users\Rohan\Documents\C#\Sports Club\Sports Club\obj\Debug\Sports Club.exe
-C:\Users\Rohan\Documents\C#\Sports Club\Sports Club\obj\Debug\Sports Club.pdb
