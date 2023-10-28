@@ -82,7 +82,20 @@ namespace Constructor_Chaining
 }
 
 /* 
- 
+
+The User class has three constructors:
+User(): This is the default constructor that prints "Hi! " to the console.
+User(string a): This constructor takes a string parameter a and this() keyword calls the default constructor User(). It then prints the value of a to the console.
+User(string a, string b): This constructor takes two string parameters a and b and uses the this() keyword to call the second constructor User(string a).
+
+
+The Student class inherits from the User class and has four constructors:
+Student(): This constructor uses the base keyword to call the constructor User("", "to "), resulting in the output "Hi! welcome to CS Department. ".
+Student(string a): This constructor uses the base keyword to call the constructor User("Welcome ") and prints the value of a.
+Student(string a, string b): This constructor uses the base keyword to call the constructor User(a, b) from the User class.
+Student(string a, string b, string c): This constructor uses the base keyword to call the constructor User(a, b) from the User class and then prints the value of c.
+
+
 Output:
 Hi!
 Hi! Hey
