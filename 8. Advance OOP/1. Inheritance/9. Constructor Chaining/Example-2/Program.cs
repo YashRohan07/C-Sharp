@@ -96,6 +96,38 @@ Student(string a, string b): This constructor uses the base keyword to call the 
 Student(string a, string b, string c): This constructor uses the base keyword to call the constructor User(a, b) from the User class and then prints the value of c.
 
 
+
+1. **User u1 = new User();**
+   - This creates an instance of the User class using the default constructor, which prints "Hi!"
+
+2. **User u2 = new User("Hey");**
+   - This creates an instance of the User class using the parameterized constructor that takes a string parameter.
+   The `this` keyword chains the current constructor to the default constructor, and then the value of the string "Hey" is printed to the console.
+
+3. **User u3 = new User("Welcome", "to Constructor Chaining");**
+   - This creates an instance of the User class using the parameterized constructor that takes two string parameters.
+   The `this` keyword in the constructor chains to the User(string a) constructor. 
+   The `base` keyword in the User(string a, string b) constructor chains to the User(string a) constructor.
+
+4. **Student s1 = new Student();**
+   - This creates an instance of the Student class using the default constructor.
+   The `base` keyword in the Student() constructor chains to the User class constructor with parameters. Then, "CS Department." is printed
+
+5. **Student s2 = new Student("Welcome to the");**
+   - This creates an instance of the Student class using the parameterized constructor.
+   The `base` keyword in the Student(string a) constructor chains to the User(string a) constructor, which in turn chains to the default constructor.
+   The string "Welcome to the" is then printed to the console.
+
+6. **Student s3 = new Student("Good", "Morning");**
+   - This creates an instance of the Student class using the parameterized constructor.
+   The `base` keyword in the Student(string a, string b) constructor chains to the User(string a, string b) constructor, which chains to the User(string a) constructor.
+   The string "Good Morning Student" is printed to the console.
+
+7. **Student s4 = new Student("Have", "a", "nice day!");**
+   - This creates an instance of the Student class using the parameterized constructor.
+   The `base` keyword in the Student(string a, string b, string c) constructor chains to the User(string a, string b) constructor,
+   which chains to the User(string a) constructor. The string "Have a nice day!" is printed to the console.
+
 Output:
 Hi!
 Hi! Hey
