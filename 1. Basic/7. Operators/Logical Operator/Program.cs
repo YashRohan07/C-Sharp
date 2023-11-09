@@ -15,11 +15,11 @@ namespace Logical_Operator
 
             //OR operator (If one of the operand is true, OR operator returns true)
             result = (num1 == num2) || (num1 > 5);
-            Console.WriteLine(result);
+            Console.WriteLine(result);  //True
 
             //AND operator  (If one of the operand is false, AND operator returns false)
             result = (num1 == num2) && (num1 > 5);
-            Console.WriteLine(result);
+            Console.WriteLine(result);  //False
 
             Console.ReadLine();
         }
