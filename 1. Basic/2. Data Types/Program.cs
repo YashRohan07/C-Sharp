@@ -25,7 +25,17 @@ namespace Data_Types
 
             Console.ReadLine();
 
-
         }
     }
 }
+
+/*
+double b = 5.5D;
+Here, b is a variable of type double. The value assigned to it is 5.5. The 'D' suffix explicitly indicates that the value is of type double. 
+Although not necessary, it can be helpful for code clarity.
+
+float c = 6.5F;
+Here, c is a variable of type float. The value assigned to it is 6.5. The 'F' suffix explicitly denotes that the value is of type float.
+Using 'F' is optional, but it helps in explicitly defining the type of the variable.
+
+*/
