@@ -19,7 +19,7 @@ namespace Break_Statement_With_For_Loop
                 }
 
                 // This line will only be executed if 'i' is not equal to 3.
-                // However, it doesn't contain any code to execute, so it prints an empty line.
+                // This code uses a loop to count from 1 to 4. When the count reaches 3, the loop stops, resulting in no output.
                 Console.WriteLine();
             }
 
