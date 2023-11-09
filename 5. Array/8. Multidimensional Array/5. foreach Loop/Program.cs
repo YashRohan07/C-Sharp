@@ -15,7 +15,7 @@ namespace For_Loop
 
             foreach(int i in number)
             {
-                Console.WriteLine(i);
+                Console.Write(i);  // 1 2 3 4 5 6
             }
 
             Console.ReadLine();
