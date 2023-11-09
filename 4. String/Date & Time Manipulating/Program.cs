@@ -13,7 +13,7 @@ namespace String
             ///String from Constructor
             char[] chars = { 'C', 'e', 'c', 'i', 'l', 'i', 'a' };
             string name = new string(chars);  // Creating a string from the chars array using the string constructor
-            Console.WriteLine(name);
+            Console.WriteLine(name);  //Cecilia
 
             /// String from Literal
             string fname = "Cecilia";
