@@ -16,7 +16,7 @@ namespace Sort_an_Array
 
             foreach(string i in color)
             {
-                Console.WriteLine(i);  //Output: Black Red White
+                Console.Write(i);  //Output: Black Red White
             }
 
             int[] num = { 5, 7, 3, 8, };
@@ -24,7 +24,7 @@ namespace Sort_an_Array
 
             foreach(int j in num)
             {
-                Console.WriteLine(j);
+                Console.Write(j);  // 3 5 7 8
             }
 
             Console.ReadLine();
