@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Calculator
 {
@@ -6,24 +6,22 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            // Declare variables for the first number, second number, and result.
-            double firstNumber, secondNumber, result = 0;
+            double result = 0; // Initialize the variable to store the result.
 
             // Get the first number from the user.
             Console.WriteLine("Enter the first number:");
-            firstNumber = Convert.ToDouble(Console.ReadLine());
+            double firstNumber = Convert.ToDouble(Console.ReadLine());
 
             // Get the second number from the user.
             Console.WriteLine("Enter the second number:");
-            secondNumber = Convert.ToDouble(Console.ReadLine());
+            double secondNumber = Convert.ToDouble(Console.ReadLine());
 
             // Get the operator from the user.
-            char operatorSymbol;
             Console.WriteLine("Enter the operator (+, -, *, /):");
-            operatorSymbol = (char)Console.Read();
+            char operation = Convert.ToChar(Console.ReadLine());
 
             // Switch on the operator symbol.
-            switch (operatorSymbol)
+            switch (operation)
             {
                 case '+':
                     result = firstNumber + secondNumber;
@@ -38,20 +36,23 @@ namespace Calculator
                     break;
 
                 case '/':
-                    result = firstNumber / secondNumber;
+                    if (secondNumber != 0) // Check for division by zero
+                    {
+                        result = firstNumber / secondNumber;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Cannot divide by zero!");
+                        return; // Exit the program if division by zero is attempted
+                    }
                     break;
 
                 default:
                     Console.WriteLine("Invalid operator.");
-                    break;
-
-                
+                    return; // Exit the program if an invalid operator is used
             }
 
-            // Display the result.
             Console.WriteLine("The result is: " + result);
-
-            // Keep the console window open so that the user can see the result.
             Console.ReadLine();
         }
     }
