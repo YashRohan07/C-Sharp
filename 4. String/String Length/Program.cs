@@ -12,11 +12,11 @@ namespace String_Length
         {
             //Create String
             string str = "C# Programming";
-            Console.WriteLine("String: " +str);
+            Console.WriteLine("String: " +str);  //String: C# Programming
 
             //Get Length of str
             int length = str.Length;
-            Console.WriteLine("Length: " + length);
+            Console.WriteLine("Length: " + length);  //Length: 15
 
             Console.ReadLine();
         }
