@@ -1,5 +1,5 @@
 ﻿/*
-the string.Join method is used to concatenate the elements of the array into a single string,
+string.Join method is used to concatenate the elements of the array into a single string,
 separating each element with a space.
  */
 using System;
