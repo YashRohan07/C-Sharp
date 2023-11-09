@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
 namespace Unary_Operator
 {
@@ -13,22 +9,28 @@ namespace Unary_Operator
             int num = 10, result;
             bool flag = true;
 
-            result = +num;
-            Console.WriteLine("+num = " + result);
+            result = +num; // Unary plus doesn't change the value
+            Console.WriteLine("+num = " + result); // Output: +num = 10
 
-            result = -num;
-            Console.WriteLine("-num = " + result);
+            result = -num; // Negation changes the sign of the value
+            Console.WriteLine("-num = " + result); // Output: -num = -10
 
-            result = ++num;
-            Console.WriteLine("++num = " + result);
+            result = ++num; // Pre-increment operator increments the value before the variable is used in an expression
+            Console.WriteLine("++num = " + result); // Output: ++num = 11
 
-            result = --num;
-            Console.WriteLine("--num = " + result);
+            result = num++; // Post-increment operator increments the value after the variable is used in an expression
+            Console.WriteLine("num++ = " + result); // Output: num++ = 11
 
-            Console.WriteLine("!flag = " + (!flag));
+            result = --num; // Pre-decrement operator decrements the value before the variable is used in an expression
+            Console.WriteLine("--num = " + result); // Output: --num = 11
+
+            result = num--; // Post-decrement operator decrements the value after the variable is used in an expression
+            Console.WriteLine("num-- = " + result); // Output: num-- = 11
+
+            Console.WriteLine("!flag = " + (!flag)); // Logical NOT operator negates the boolean value
+            // Output: !flag = False
 
             Console.ReadLine();
         }
     }
 }
- 
