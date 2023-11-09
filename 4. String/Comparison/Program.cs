@@ -15,10 +15,10 @@ namespace Comparison
             string z = "Python";
 
             Boolean result1 = x.Equals(y);
-            Console.WriteLine("x and y are equal: " +result1);
+            Console.WriteLine("x and y are equal: " +result1);   //x and y are equal: True
 
             Boolean result2 = x.Equals(z);
-            Console.WriteLine("x and z are equal: " +result2);
+            Console.WriteLine("x and z are equal: " +result2);   //x and z are equal: False
 
             Console.ReadLine();
                
