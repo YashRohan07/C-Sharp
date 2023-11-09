@@ -8,8 +8,7 @@ namespace ForEach_Loop
         {
             // Define an array of car brands
             string[] cars = { "BMW", "AUDI", "FORD", "MERCEDES" };
-
-            // Use a foreach loop to iterate through the 'cars' array
+            
             //foreach(type variableName in arrayName)
             foreach (string car in cars)
             {
