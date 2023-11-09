@@ -22,10 +22,10 @@ namespace Unary_Operator
             Console.WriteLine("num++ = " + result); // Output: num++ = 11
 
             result = --num; // Pre-decrement operator decrements the value before the variable is used in an expression
-            Console.WriteLine("--num = " + result); // Output: --num = 11
+            Console.WriteLine("--num = " + result); // Output: --num = 10
 
             result = num--; // Post-decrement operator decrements the value after the variable is used in an expression
-            Console.WriteLine("num-- = " + result); // Output: num-- = 11
+            Console.WriteLine("num-- = " + result); // Output: num-- = 10
 
             Console.WriteLine("!flag = " + (!flag)); // Logical NOT operator negates the boolean value
             // Output: !flag = False
