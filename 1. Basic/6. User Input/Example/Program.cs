@@ -38,6 +38,12 @@ namespace MyInfo_Updated
             Console.Write("Account Balance: ");
             double accountBalance = Convert.ToDouble(Console.ReadLine());
 
+            Console.Write("Are you a student? (true/false): ");
+            bool isStudent = Convert.ToBoolean(Console.ReadLine());
+
+            Console.Write("Enter any character: ");
+            char anyCharacter = Convert.ToChar(Console.ReadLine());
+
             Console.ReadLine();
         }
     }
