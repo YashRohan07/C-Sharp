@@ -30,13 +30,15 @@ namespace String
             string Info = "Cecilia Hansen is 25 years old";
             int start = Info.IndexOf("is") + 1;
             Console.WriteLine(start);  //16
-
+            
+            //string substring = Info.Substring(0, 6);  //Cecilia
+            
             string substring = Info.Substring(start + 2, 2);
-            //string substring = Info.Substring(0, 6);  //0<=x<6
-            Console.WriteLine("Age is " + substring);
+            Console.WriteLine("Age is " + substring);  //25
+            
             for (int count = 0; count <= Info.Length - 1; count++)
             {
-                Console.Write(Info[count]);
+                Console.Write(Info[count]);   //Cecilia Hansen is 25 years old
             }
 
             Console.WriteLine();
