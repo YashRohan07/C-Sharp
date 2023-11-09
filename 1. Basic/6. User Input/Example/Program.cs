@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace MyInfo_Updated
 {
@@ -6,41 +6,37 @@ namespace MyInfo_Updated
     {
         static void Main(string[] args)
         {
-            string name, university, dept, id, email, bg;
-            double balance, cgpa;
-            int age, contact;
+            Console.WriteLine("Please Enter Your Information...");
 
-            Console.WriteLine("Enter Your Info...");
+            Console.Write("Name: ");
+            string name = Console.ReadLine();
 
-            Console.Write("Enter Your Name: ");
-            name = Console.ReadLine();
+            Console.Write("University Name: ");
+            string university = Console.ReadLine();
 
-            Console.Write("Enter University Name: ");
-            university = Console.ReadLine();
+            Console.Write("Department: ");
+            string department = Console.ReadLine();
 
-            Console.Write("Enter Dept: ");
-            dept = Console.ReadLine();
+            Console.Write("Student ID: ");
+            string studentID = Console.ReadLine();
 
-            Console.Write("Enter Your ID: ");
-            id = Console.ReadLine();
+            Console.Write("Age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter Your Age: ");
-            age = Convert.ToInt32(Console.ReadLine());
+            Console.Write("CGPA: ");
+            double cgpa = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Enter CGPA: ");
-            cgpa = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Email Address: ");
+            string email = Console.ReadLine();
 
-            Console.Write("Enter Email: ");
-            email = Console.ReadLine();
-
-            Console.Write("Enter Blood Group: ");
-            bg = Console.ReadLine();
+            Console.Write("Blood Group: ");
+            string bloodGroup = Console.ReadLine();
 
             Console.Write("Contact Number: ");
-            contact = Convert.ToInt32(Console.ReadLine());
+            int contactNumber = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter Your Net Worth: ");
-            balance = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Account Balance: ");
+            double accountBalance = Convert.ToDouble(Console.ReadLine());
 
             Console.ReadLine();
         }
