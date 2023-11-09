@@ -30,17 +30,17 @@ namespace String
             Console.WriteLine("Age        : " + age);
             */
 
-            string now = "Date : " + DateTime.Now.ToString("D");
-            Console.WriteLine(now);  //Date : Friday, October 13, 2023
+            string now = DateTime.Now.ToString("D");
+            Console.WriteLine(now);  //Friday, October 13, 2023
 
-            now = "Date : " + DateTime.Now.ToString("MM-dd-yy");
-            Console.WriteLine(now);  //Date : 10-13-23
+            now = DateTime.Now.ToString("MM-dd-yy");
+            Console.WriteLine(now);  //10-13-23
 
-            now = "Date : " + DateTime.Now.ToString("hh:mm:ss");
-            Console.WriteLine(now);  //Date : 11:44:31
+            now = DateTime.Now.ToString("hh:mm:ss");
+            Console.WriteLine(now);  //11:44:31
 
-            now = "Date : " + DateTime.Now.ToString();
-            Console.WriteLine(now);  //Date : 10/13/2023 11:44:31 PM
+            now = DateTime.Now.ToString();
+            Console.WriteLine(now);  //10/13/2023 11:44:31 PM
 
             Console.Read();
         }
