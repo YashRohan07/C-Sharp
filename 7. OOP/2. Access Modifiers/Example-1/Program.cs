@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace NS1
 {
@@ -18,7 +18,9 @@ namespace NS1
                 // x: Accessible (public)
                 // z: Accessible (protected)
                 // i: Accessible (internal)
-                // j: Accessible (protected internal)
+                // j: Accessible (protected internal) 
+
+                //class C is a private nested class of A, it cannot access the members of B 
             }
         }
     }
@@ -64,7 +66,14 @@ namespace NS2
     {
         public override void M3()
         {
-            // Your implementation here
+            // Accessibility:
+            // x: Accessible (public)
+            // y: Not accessible (private)
+            // z: Not accessible from this context
+            // i: Accessible (internal)
+            // j: Accessible (protected internal)
+            // x1: Accessible (internal)
+            // x2: Not accessible (private)
         }
 
         static void Main()
