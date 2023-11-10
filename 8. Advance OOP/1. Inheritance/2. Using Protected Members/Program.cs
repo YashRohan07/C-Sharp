@@ -22,6 +22,7 @@ namespace UsingProtectedMembers
         // Constructor for Dog class
         public Dog(string name) : base(name)
         {
+           //Dog class doesn't have its own constructor but uses the base constructor to set the name
         }
         public void DisplayDog()
         {
@@ -44,7 +45,7 @@ namespace UsingProtectedMembers
             // Accessing the 'DisplayDogName' method of the Dog class
             dog.DisplayDog();
 
-            // Accessing the 'DisplayAnimalInfo' method of the Dog class
+            // Accessing the 'DisplayAnimal' method of the Dog class
             dog.DisplayAnimal();
 
             Console.ReadLine();
