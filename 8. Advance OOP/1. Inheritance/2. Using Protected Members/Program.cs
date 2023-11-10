@@ -5,10 +5,11 @@ namespace UsingProtectedMembers
     // Base class
     class Animal
     {
-        protected string name;
+        protected string name;  //name field
         public Animal(string name)
         {
-            this.name = name;
+            this.name = name;  //this.name refers to the name field of the current Animal object, while name is the parameter passed to the constructor. 
+                               //This usage is used to differentiate between the name field of the class and the parameter with the same name.
         }
         protected void Display()
         {
@@ -23,6 +24,7 @@ namespace UsingProtectedMembers
         public Dog(string name) : base(name)
         {
            //Dog class doesn't have its own constructor but uses the base constructor to set the name
+           //base(name) is used to call the constructor of the base class Animal with the parameter name
         }
         public void DisplayDog()
         {
