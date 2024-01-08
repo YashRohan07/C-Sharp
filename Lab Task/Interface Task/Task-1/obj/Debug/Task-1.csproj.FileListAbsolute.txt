@@ -1,0 +1,7 @@
+C:\Users\Rohan\Documents\C#\Task-1\Task-1\bin\Debug\Task-1.exe.config
+C:\Users\Rohan\Documents\C#\Task-1\Task-1\bin\Debug\Task-1.exe
+C:\Users\Rohan\Documents\C#\Task-1\Task-1\bin\Debug\Task-1.pdb
+C:\Users\Rohan\Documents\C#\Task-1\Task-1\obj\Debug\Task-1.csproj.AssemblyReference.cache
+C:\Users\Rohan\Documents\C#\Task-1\Task-1\obj\Debug\Task-1.csproj.CoreCompileInputs.cache
+C:\Users\Rohan\Documents\C#\Task-1\Task-1\obj\Debug\Task-1.exe
+C:\Users\Rohan\Documents\C#\Task-1\Task-1\obj\Debug\Task-1.pdb
