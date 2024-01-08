@@ -1,7 +1,0 @@
-C:\Users\Rohan\Documents\C#\Course Management System\Course Management System\bin\Debug\Course Management System.exe.config
-C:\Users\Rohan\Documents\C#\Course Management System\Course Management System\bin\Debug\Course Management System.exe
-C:\Users\Rohan\Documents\C#\Course Management System\Course Management System\bin\Debug\Course Management System.pdb
-C:\Users\Rohan\Documents\C#\Course Management System\Course Management System\obj\Debug\Course Management System.csproj.AssemblyReference.cache
-C:\Users\Rohan\Documents\C#\Course Management System\Course Management System\obj\Debug\Course Management System.csproj.CoreCompileInputs.cache
-C:\Users\Rohan\Documents\C#\Course Management System\Course Management System\obj\Debug\Course Management System.exe
-C:\Users\Rohan\Documents\C#\Course Management System\Course Management System\obj\Debug\Course Management System.pdb

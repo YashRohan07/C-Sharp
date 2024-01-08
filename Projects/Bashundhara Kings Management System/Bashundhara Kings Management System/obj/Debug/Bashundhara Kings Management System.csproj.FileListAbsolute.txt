@@ -1,7 +1,0 @@
-C:\Users\Rohan\Documents\C#\Bashundhara Kings Management System\Bashundhara Kings Management System\obj\Debug\Bashundhara Kings Management System.csproj.AssemblyReference.cache
-C:\Users\Rohan\Documents\C#\Bashundhara Kings Management System\Bashundhara Kings Management System\obj\Debug\Bashundhara Kings Management System.csproj.CoreCompileInputs.cache
-C:\Users\Rohan\Documents\C#\Bashundhara Kings Management System\Bashundhara Kings Management System\bin\Debug\Bashundhara Kings Management System.exe.config
-C:\Users\Rohan\Documents\C#\Bashundhara Kings Management System\Bashundhara Kings Management System\bin\Debug\Bashundhara Kings Management System.exe
-C:\Users\Rohan\Documents\C#\Bashundhara Kings Management System\Bashundhara Kings Management System\bin\Debug\Bashundhara Kings Management System.pdb
-C:\Users\Rohan\Documents\C#\Bashundhara Kings Management System\Bashundhara Kings Management System\obj\Debug\Bashundhara Kings Management System.exe
-C:\Users\Rohan\Documents\C#\Bashundhara Kings Management System\Bashundhara Kings Management System\obj\Debug\Bashundhara Kings Management System.pdb
