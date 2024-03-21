@@ -1,0 +1,9 @@
+CREATE TABLE Login_Data
+(
+USERNAME VARCHAR(50) NOT NULL,
+PASSWORD VARCHAR(50) NOT NULL
+);
+
+SELECT * FROM Login_Data;
+INSERT INTO Login_Data VALUES('nazmul','12345');
+INSERT INTO Login_Data VALUES('aiub','aiub');
